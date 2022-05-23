@@ -13,7 +13,7 @@ def veri():
             'Host': 'api31-normal-useast1a.tiktokv.com',
             'Content-Type': 'application/x-www-form-urlencoded',
             'Accept-Encoding': 'gzip',
-            'Cookie': 'store-idc=maliva; store-country-code=gb; install_id=7100986988781913861; ttreq=1$ce89e6d9a5add643681688dd655eb995ccee6a72; odin_tt=6033ac7df43163a318dcab32b0825d5aae93cc8f1284992068f7d640238170118a24c398358cc77a70567dc712204d3c169f416eb509091c4ac6ac2d57fb9beb9ed77febd6be1d847d1a1848f01a3076; msToken=Pvu7YImaOu3ZVFtChCYy-uhgesCf8BzYiJFOZSmuEvvgfcEYyh7hJdS54Cf4Spgd-ZRGqsCMzHJ_DJqiEWt7OSmK-4yS95GatprDruv5WtQ=',
+            'Cookie': 'store-idc=maliva; store-country-code=gb; install_id=7100986988781913861; ttreq=1$ce89e6d9a5add643681688dd655eb995ccee6a72; odin_tt=6033ac7df43163a318dcab32b0825d5aae93cc8f1284992068f7d640238170118a24c398358cc77a70567dc712204d3c169f416eb509091c4ac6ac2d57fb9beb9ed77febd6be1d847d1a1848f01a3076; msToken={msToken}',
             'Passport-Sdk-Version': '19',
             'Sdk-Version': '2',
             'User-Agent': 'com.zhiliaoapp.musically/2022405010 (Linux; U; Android 7.1.2; en; ASUS_Z01QD; Build/N2G48H;tt-ok/3.12.13.1)',
