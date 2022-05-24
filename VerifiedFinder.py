@@ -5,6 +5,8 @@ import string
 
 r = requests.session
 
+veris = []
+
 def veri():
     while True:
         keyword = random.choice(string.ascii_letters)
@@ -34,6 +36,15 @@ def veri():
             verijsonlist = (verijson['user_list'][i]['user_info'])
             verilist = (verijsonlist['unique_id'])
             print(verilist)
+            try:
+                if not (verijsonlist['ins_id']):
+                    #print("No insta")
+                    pass
+                else:
+                    veris.append(verilist)
+                    print(veris)
+            except:
+                pass
 
 
 veri()
